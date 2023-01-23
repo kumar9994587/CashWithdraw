@@ -1,0 +1,83 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-container {
+  width: 80%;
+  max-width: 400px;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.user-container {
+  display: flex;
+}
+.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.user-initial {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.name {
+  font-family: 'Roboto';
+  color: #c7d2fe;
+}
+
+.current-balance {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 25px;
+}
+
+.balance-text {
+  color: #585076;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.balance {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 35px;
+  margin: 0;
+}
+.rupees {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.withdraw {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 10px;
+}
+.in-rupees {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.denomination {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
